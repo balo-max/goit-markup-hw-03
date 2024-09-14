@@ -101,8 +101,6 @@ body {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .page-logo {
   font-family: 'Raleway', sans-serif;
