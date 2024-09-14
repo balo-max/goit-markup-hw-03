@@ -59,8 +59,8 @@ body {
 }
 
 .section-paddings {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .title {
@@ -244,8 +244,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: #f4f4fd;
-  margin-top: 60px;
-  margin-bottom: 60px;
 }
 .team-conteiner {
   padding-top: 120px;
@@ -294,9 +292,6 @@ body {
 /* =========== /SECTION OUR TEAM STYLES ===========*/
 
 /* =========== SECTION OUR PORTFOLIO STYLES ===========*/
-.section-portfolio {
-  margin-bottom: 60px;
-}
 .portfolio {
   display: flex;
   flex-wrap: wrap;
