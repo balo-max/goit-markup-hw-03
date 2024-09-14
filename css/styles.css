@@ -240,10 +240,57 @@ body {
 
 /* =========== SECTION OUR TEAM STYLES ===========*/
 .section-team {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #f4f4fd;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.team-conteiner {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.team-title {
+  max-width: 162px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
+}
+.name-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.text-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+  margin-bottom: 32px;
+}
+.page-team {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+}
+.team-item {
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  width: calc((100% - 72px) / 4);
 }
 .page-team .team-item {
   background-color: #ffffff;
+}
+.team-img {
+  margin-bottom: 32px;
 }
 /* =========== /SECTION OUR TEAM STYLES ===========*/
 
