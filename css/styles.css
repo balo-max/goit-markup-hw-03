@@ -85,8 +85,6 @@ body {
 .section-header {
   border-bottom: 1px solid #e7e9fc;
   height: 72px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-conteiner {
   display: flex;
@@ -120,6 +118,8 @@ body {
   flex-direction: row;
   gap: 0px;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .span-logo-header {
   color: #2e2f42;
@@ -172,30 +172,20 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: #2e2f42;
-}
-.hero-conteiner {
   padding-top: 188px;
-  padding-right: 332px;
   padding-bottom: 188px;
-  padding-left: 332px;
   color: #ffffff;
 }
 .page-title {
-  width: 496px;
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 48px;
 }
-
-.hero-conteiner-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .button-service {
+  display: block;
   min-width: 169px;
   height: 56px;
   font-family: 'Roboto', sans-serif;
@@ -206,6 +196,7 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
   border-radius: 4px;
+  border: none;
   padding: 16px 32px;
 }
 .button-service:hover,
