@@ -151,17 +151,33 @@ body {
 /* =========== SECTION HERO STYLES ===========*/
 
 .section-hero {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #2e2f42;
-  height: 600px;
+}
+.hero-conteiner {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  color: #ffffff;
 }
 .page-title {
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffffff;
-  width: 496px;
-  height: 120px;
+  margin-right: 332px;
+  margin-left: 332px;
+  margin-bottom: 48px;
+}
+
+.hero-conteiner-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 495px;
+  margin-right: 495px;
 }
 
 .button-service {
@@ -174,7 +190,7 @@ body {
   background-color: #4d5ae5;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
 }
 .button-service:hover,
