@@ -342,7 +342,20 @@ body {
 
 /* =========== FOOTER STYLES ===========*/
 .section-footer {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #2e2f42;
+}
+.footer-conteiner {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-content {
+  max-width: 264px;
+}
+.logo-footer {
+  margin-bottom: 16px;
 }
 .section-footer .section-text {
   color: #f4f4fd;
