@@ -158,17 +158,17 @@ body {
 }
 .hero-conteiner {
   padding-top: 188px;
+  padding-right: 332px;
   padding-bottom: 188px;
+  padding-left: 332px;
   color: #ffffff;
 }
 .page-title {
-  max-width: 496px;
+  width: 496px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-right: 332px;
-  margin-left: 332px;
   margin-bottom: 48px;
 }
 
@@ -176,8 +176,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 495px;
-  margin-right: 495px;
 }
 
 .button-service {
