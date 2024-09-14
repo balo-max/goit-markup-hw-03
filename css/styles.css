@@ -341,16 +341,15 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: #2e2f42;
-}
-.footer-conteiner {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.footer-content {
-  max-width: 264px;
-}
 .logo-footer {
+  display: inline-block;
   margin-bottom: 16px;
+}
+.logo-text {
+  max-width: 264px;
 }
 .section-footer .section-text {
   color: #f4f4fd;
