@@ -27,6 +27,15 @@ button {
   cursor: pointer;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
+}
+
 .conteiner {
   max-width: 1158px;
   margin-left: auto;
@@ -34,28 +43,66 @@ button {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.section-paddings {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
 /* =========== /COMMON STYLES ===========*/
 
-/* =========== BODY STYLES ===========*/
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  background-color: #ffffff;
-}
-/* =========== /BODY STYLES ===========*/
-
 /* =========== HEADER STYLES ===========*/
+.section-header {
+  border-bottom: 1px solid #e7e9fc;
+  height: 72px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-nav {
+  display: flex;
+}
+.page-menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+}
 .page-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+  margin-right: 76px;
 }
 .span-logo-header {
   color: #2e2f42;
@@ -82,6 +129,13 @@ body {
 .page-contacts {
   font-style: normal;
 }
+.list-contacts {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 40px;
+}
 .list-contacts .link {
   font-size: 16px;
   line-height: 1.5;
@@ -98,6 +152,7 @@ body {
 
 .section-hero {
   background-color: #2e2f42;
+  height: 600px;
 }
 .page-title {
   font-size: 56px;
@@ -105,41 +160,28 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  width: 496px;
+  height: 120px;
 }
 
 .button-service {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
 }
 .button-service:hover,
 .button-service:focus {
   background-color: #404bbf;
 }
 /* =========== /SECTION HERO STYLES ===========*/
-
-/* =========== TITLES STYLES ===========*/
-.title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  color: #2e2f42;
-}
-/* =========== /TITLES STYLES ===========*/
 
 /* =========== SECTION OUR TEAM STYLES ===========*/
 .section-team {
