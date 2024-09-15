@@ -239,7 +239,6 @@ body {
 
 /* =========== SECTION OUR TEAM STYLES ===========*/
 .section-team {
-  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   background-color: #f4f4fd;
@@ -285,9 +284,6 @@ body {
 }
 .page-team .team-item {
   background-color: #ffffff;
-}
-.team-img {
-  margin-bottom: 32px;
 }
 /* =========== /SECTION OUR TEAM STYLES ===========*/
 
@@ -337,7 +333,6 @@ body {
 
 /* =========== FOOTER STYLES ===========*/
 .section-footer {
-  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   background-color: #2e2f42;
