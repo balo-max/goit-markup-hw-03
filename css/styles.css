@@ -108,11 +108,11 @@ body {
   justify-content: flex-start;
   flex-direction: row;
   gap: 0px;
-  margin-right: 76px;
 }
 .logo-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-right: 76px;
 }
 .span-logo-header {
   color: #2e2f42;
